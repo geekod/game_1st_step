@@ -1,7 +1,6 @@
 let cat = game.createSprite(randint(0, 4), 0)
 cat.turn(Direction.Right, 90)
 let sprite = game.createSprite(2, 4)
-
 input.onButtonPressed(Button.A, function on_a() {
     sprite.move(-1)
 })
